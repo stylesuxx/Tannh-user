@@ -10,4 +10,4 @@ occult: hermetica
 rank: '0'
 ---
 
-Du und alle Charaktere, die das Zuordnungssymbol "Obscura Korps" besitzen und innerhalb von sechs Ringen Entfernung sind, haben einen Würfel zusätzlich bei allen Angriffswürfen.
+**Du und alle Charaktere**, die das Zuordnungssymbol **"Obscura Korps"** besitzen und innerhalb von *sechs Ringen* Entfernung sind, haben **einen Würfel zusätzlich bei allen Angriffswürfen**.

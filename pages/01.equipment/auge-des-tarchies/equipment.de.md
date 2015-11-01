@@ -10,6 +10,6 @@ occult: none
 rank: '0'
 ---
 
-Als Aktion kannst du ein Mal pro Spiel dich oder einen beliebigen benachbarten Charakter vollständig heilen.
+Als Aktion kannst du **ein Mal pro Spiel dich oder einen beliebigen benachbarten Charakter vollständig heilen**.
 
 Drehe diesen Marker zur Erinnerung um, wenn du ihn benutzt hast.
