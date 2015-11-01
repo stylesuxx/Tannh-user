@@ -2,6 +2,7 @@
   {{ 'WEAPON'|t }} -
   {% if page.header.weapon == 'close' %} {{ 'CLOSE_COMBAT'|t }}{% endif %}
   {% if page.header.weapon == 'pistol' %} {{ 'PISTOL'|t }}{% endif %}
+  {% if page.header.weapon == 'tele' %} {{ 'TELE'|t }}{% endif %}
 {% endif %}
 {% if page.header.occult %}
   {{ 'OCCULT'|t }}
@@ -12,3 +13,4 @@
 {% if page.header.other == 'item' %} {{ 'ITEM'|t }} {% endif %}
 {% if page.header.other == 'ability' %} {{ 'ABILITY'|t }} {% endif %}
 {% if page.header.other == 'rank' %} {{ 'RANK'|t }} {% endif %}
+{% if page.header.other == 'grenade' %} {{ 'GRENADE'|t }} {% endif %}

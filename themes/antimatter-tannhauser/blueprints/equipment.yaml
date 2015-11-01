@@ -57,7 +57,7 @@ form:
               options:
                 'close': 'Close Combat'
                 'pistol': 'Pistol'
-                'tele': 'Telekinetik'
+                'tele': 'Mind, Occult'
                 'automatic': 'Automatic'
 
             header.occult:
@@ -80,3 +80,4 @@ form:
                 'honor': 'Honor'
                 'item': 'Item'
                 'rank': 'Rank'
+                'grenade': 'Grenade'
