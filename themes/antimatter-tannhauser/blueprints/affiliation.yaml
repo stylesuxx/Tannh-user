@@ -1,0 +1,33 @@
+title: Item
+@extends:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+
+      fields:
+
+        equipment:
+          type: tab
+          title: Affiliation
+
+          fields:
+
+            images:
+              type: section
+              title: Images
+              underline: true
+
+            header.token_image:
+              type: text
+              label: Token Image
+              help: image filename that exists in the page folder.
+              placeholder: For example: myimage.jpg
+
+            header.banner_image:
+              type: text
+              label: Banner Image
+              help: image filename that exists in the page folder.
+              placeholder: For example: myimage.jpg
