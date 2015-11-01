@@ -1,5 +1,5 @@
 ---
-title: 'Eisenes Kreuz Zweiter Klasse'
+title: 'Eisernes Kreuz Zweiter Klasse'
 token_image: IronCross2.png
 quote: 'Eine berühmte preußische Auszeichnung für erfolgreiche Feldeinsätze, 1813 von Friedrich Wilhelm III. ins Leben gerufen.'
 droppable: '0'

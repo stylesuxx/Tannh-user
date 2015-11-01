@@ -1,5 +1,5 @@
 ---
-title: 'Eisenes Kreuz Erster Klasse'
+title: 'Eisernes Kreuz Erster Klasse'
 token_image: IronCross1.png
 quote: 'Diese militärische Auszeichnung wird für mutige Aktionen bei kriegswichtigen Einsätzen verliehen.'
 droppable: '0'
