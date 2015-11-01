@@ -28,25 +28,3 @@ form:
               label: Detail Image
               help: image filename that exists in the page folder. If not provided, will use the first image found.
               placeholder: For example: myimage.jpg
-
-            affiliation:
-              type: section
-              title: Affiliation
-              underline: true
-
-            header.affiliations.reich:
-              type: checkboxes
-              label: Affiliation Reich
-              classes: fancy
-              options:
-                'blutsturm': 'Blutsturm Division'
-                'paranormal': 'Paranormale Division'
-                'obscure': 'Obscura Korps'
-
-            header.affiliations.union:
-              type: checkboxes
-              label: Affiliation Union
-              classes: fancy
-              options:
-                'airborne': 'Airborne Destruction Squad'
-                'marine': '42nd Marine Special Forces'
