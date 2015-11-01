@@ -1,7 +1,7 @@
 ---
-title: Equipment
+title: Ausrüstung
 content:
   items: @self.children
 ---
 
-# Equipment de
+# Ausrüstung
