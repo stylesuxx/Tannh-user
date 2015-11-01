@@ -60,56 +60,23 @@ form:
                 'tele': 'Telekinetik'
                 'automatic': 'Automatic'
 
-            header.ability:
-              type: toggle
-              label: Ability
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
-
-            header.honor:
-              type: toggle
-              label: Honor
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
-
-            header.item:
-              type: toggle
-              label: Item
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
-
             header.occult:
-              type: toggle
+              type: select
+              toggleable: true
               label: Occult
-              default: 0
-              highlight: 1
+              highlight: 'none'
               options:
-                1: Yes
-                0: No
+                'none': '---'
+                'mental': 'Mental'
+                'hermetica': 'Hermetica'
 
-            header.hermetica:
-              type: toggle
-              label: Hermetica
-              default: 0
-              highlight: 1
+            header.other:
+              type: select
+              toggleable: true
+              label: Other
+              highlight: 'ability'
               options:
-                1: Yes
-                0: No
-
-            header.rank:
-              type: toggle
-              label: Rank
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
+                'ability': 'Ability'
+                'honor': 'Honor'
+                'item': 'Item'
+                'rank': 'Rank'
