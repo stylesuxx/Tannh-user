@@ -3,10 +3,6 @@ title: Sha-Na-Ra
 token_image: ShaNaRa.png
 quote: 'Dieser Quarz-Kristallschädel wurde 1924 vom Unions-Forscher Frederick Albert Mitchell-Hedges in den Ruinen eines Mayatempels entdeckt. Als Wächter der heiligen Flamme diente er vor über 3 600 Jahren.'
 droppable: '0'
-ability: '0'
-honor: '0'
-item: '0'
-rank: '0'
 occult: mental
 ---
 

@@ -2,11 +2,7 @@
 title: 'Hermetica Occulta'
 quote: 'Hermetica Okkulta gilt als der mächtigste bis heute entdeckte Text, der die kosmische Energie eines Ortes in einen machtvollen, psychischen Schutzschild umwandelt.'
 droppable: '0'
-ability: '0'
-honor: '0'
-item: '0'
 occult: hermetica
-rank: '0'
 ---
 
 **Jeder Charakter ohne** das Zuordnungssymbol **"Obscura Korps"**, der einen Ring auf **deinem Pfad betreten** möchte, muss zuerst ein **Verstandesduell** gegen dich gewinnen (was ihn keine Aktion kostet).

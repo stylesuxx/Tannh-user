@@ -3,10 +3,6 @@ title: Strafe
 token_image: Strafe.png
 quote: 'Den Spitznamen „Strafe“ hat Martha ihrer Lieblingswaffe gegeben: Feinste rasiermesserscharfe Klingen sind in die Lederstränge dieser Peitsche eingewoben. Genau wie Martha ist sie wunderschön und tödlich.'
 droppable: '1'
-ability: '0'
-honor: '0'
-item: '0'
-rank: '0'
 weapon: close
 ---
 
