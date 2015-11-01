@@ -1,0 +1,21 @@
+{% embed 'partials/base.html.twig' %}
+
+  {% block content %}
+    {% if config.plugins.breadcrumbs.enabled %}
+      {% include 'partials/breadcrumbs.html.twig' %}
+    {% endif %}
+
+    <div class="blog-content-item grid pure-g-r">
+      <div id="item" class="block pure-u-2-3">
+        <h1>{{ page.title }}</h1>
+        <h6>{% include 'partials/equipment_type.html.twig' %}</h6>
+        {{ page.media[page.header.token_image].resize(75,75).html() }}
+        {{ page.content }}
+        <blockquote>
+          <p>{{ page.header.quote }}</p>
+        </blockqoute>
+      </div>
+    </div>
+  {% endblock %}
+
+{% endembed %}
