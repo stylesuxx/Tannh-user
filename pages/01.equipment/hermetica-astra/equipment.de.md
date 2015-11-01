@@ -6,8 +6,7 @@ droppable: '0'
 ability: '0'
 honor: '0'
 item: '0'
-occult: '1'
-hermetica: '1'
+occult: hermetica
 rank: '0'
 ---
 
