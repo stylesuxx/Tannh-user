@@ -14,7 +14,7 @@ languages:
 home:
   alias: /equipment
 pages:
-  theme: antimatter
+  theme: antimatter-tannhauser
   order:
     by: default
     dir: asc
