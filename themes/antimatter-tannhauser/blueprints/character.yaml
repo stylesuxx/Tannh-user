@@ -20,11 +20,28 @@ form:
             header.image.list:
               type: text
               label: List Image
-              help: image filename that exists in the page folder. If not provided, will use the first image found.
+              help: image filename that exists in the page folder.
               placeholder: For example: myimage.jpg
 
             header.image.detail:
               type: text
               label: Detail Image
-              help: image filename that exists in the page folder. If not provided, will use the first image found.
+              help: image filename that exists in the page folder.
               placeholder: For example: myimage.jpg
+
+            header.pack.combat:
+              type: list
+              label: Combat pack
+
+            header.pack.stamina:
+              type: list
+              label: Stamina pack
+
+            header.pack.command:
+              type: list
+              label: Command pack
+
+            header.pack.bonus:
+              type: list
+              label: Bonus pack
+
