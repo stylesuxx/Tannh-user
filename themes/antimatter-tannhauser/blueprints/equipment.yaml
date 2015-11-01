@@ -70,38 +70,13 @@ form:
                 'mental': 'Mental'
                 'hermetica': 'Hermetica'
 
-            header.ability:
-              type: toggle
-              label: Ability
-              default: 0
-              highlight: 1
+            header.other:
+              type: select
+              toggleable: true
+              label: Other
+              highlight: 'ability'
               options:
-                1: Yes
-                0: No
-
-            header.honor:
-              type: toggle
-              label: Honor
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
-
-            header.item:
-              type: toggle
-              label: Item
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
-
-            header.rank:
-              type: toggle
-              label: Rank
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
+                'ability': 'Ability'
+                'honor': 'Honor'
+                'item': 'Item'
+                'rank': 'Rank'
