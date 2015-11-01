@@ -1,5 +1,6 @@
 ---
 title: 'Hermetica Occulta'
+token_image: HermeticaOcculta.png
 quote: 'Hermetica Okkulta gilt als der mächtigste bis heute entdeckte Text, der die kosmische Energie eines Ortes in einen machtvollen, psychischen Schutzschild umwandelt.'
 droppable: '0'
 occult: hermetica
