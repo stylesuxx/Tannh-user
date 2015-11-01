@@ -60,6 +60,16 @@ form:
                 'tele': 'Telekinetik'
                 'automatic': 'Automatic'
 
+            header.occult:
+              type: select
+              toggleable: true
+              label: Occult
+              highlight: 'none'
+              options:
+                'none': '---'
+                'mental': 'Mental'
+                'hermetica': 'Hermetica'
+
             header.ability:
               type: toggle
               label: Ability
@@ -81,24 +91,6 @@ form:
             header.item:
               type: toggle
               label: Item
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
-
-            header.occult:
-              type: toggle
-              label: Occult
-              default: 0
-              highlight: 1
-              options:
-                1: Yes
-                0: No
-
-            header.hermetica:
-              type: toggle
-              label: Hermetica
               default: 0
               highlight: 1
               options:

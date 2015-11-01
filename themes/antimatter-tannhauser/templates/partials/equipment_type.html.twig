@@ -8,6 +8,7 @@
 {% if page.header.ability %} {{ 'ABILITY'|t }} {% endif %}
 {% if page.header.occult %}
   {{ 'OCCULT'|t }}
-  {% if page.header.hermetica %} - {{ 'HERMETICA'|t }}{% endif %}
+  {% if page.header.occult == 'hermetica' %} - {{ 'HERMETICA'|t }}{% endif %}
+  {% if page.header.occult == 'mental' %} - {{ 'MENTAL'|t }}{% endif %}
 {% endif %}
 {% if page.header.rank %} {{ 'RANK'|t }} {% endif %}
