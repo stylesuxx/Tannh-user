@@ -26,3 +26,6 @@ You should now see the page when browsing to [localhost:1111](http://localhost:1
 If you want to add new pages via admin interface you need to install it and add a user:
 
     bin/gpm install admin
+    bin/grav newuser
+
+Now browse to [localhost:1111/admin](http://localhost:1111/admin) and log in with your newly created credentials.
