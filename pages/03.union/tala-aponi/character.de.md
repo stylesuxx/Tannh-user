@@ -1,39 +1,5 @@
 ---
 title: 'Tala Aponi'
-packs:
-    1:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: tnt-440gr
-            2:
-                slug: m3
-            3:
-                slug: m15
-            4:
-                slug: munition
-    2:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: tnt-440gr
-            2:
-                slug: smith-and-wesson-1917
-            3:
-                slug: erste-hilfe-koffer
-            4:
-                slug: morphiumdosis
-    3:
-        name: 'Befehls Pack'
-        equip:
-            1:
-                slug: tnt-440gr
-            2:
-                slug: smith-and-wesson-1917
-            3:
-                slug: corporal
-            4:
-                slug: m15
 image:
     detail: Aponi.png
 taxonomy:
