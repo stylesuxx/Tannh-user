@@ -2,41 +2,6 @@
 title: 'Karl "Ozo" Zermann'
 image:
     detail: KarlZermann.png
-packs:
-    1:
-        name: 'Befehls Pack'
-        equip:
-            1:
-                slug: unheil
-            2:
-                slug: stielhandgranate
-            3:
-                slug: uebernatuerliche-staerke
-            4:
-                slug: schmerzunempfindlichkeit
-    2:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: unheil
-            2:
-                slug: stielhandgranate
-            3:
-                slug: schnelligkeit
-            4:
-                slug: erste-hilfe-koffer
-    3:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: unheil
-            2:
-                slug: stielhandgranate
-            3:
-                slug: oberleutnant
-            4:
-                slug: ringkragen
-
 taxonomy:
     affiliation:
         - obscura-korps
