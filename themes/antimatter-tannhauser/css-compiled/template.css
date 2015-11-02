@@ -743,6 +743,15 @@ ul.pagination {
 .simplesearch hr {
   border-bottom: 1px solid #eee; }
 
+.character-pack-details p.link-wrapper {
+  margin-top: 0;
+  font-weight: bold; }
+.character-pack-details .pack-details img {
+  float: left;
+  padding-right: 10px; }
+.character-pack-details .clearfix {
+  clear: both; }
+
 .pack-wrapper {
   padding-right: 4px; }
   .pack-wrapper .item {
