@@ -1,28 +1,5 @@
 ---
 title: Stosstruppen
-packs:
-    1:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: daemonenzeichen
-            2:
-                slug: kampfmesser
-            3:
-                slug: uebernatuerliche-staerke
-            4:
-                slug: schmerzunempfindlichkeit
-    2:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: daemonenzeichen
-            2:
-                slug: noch-nicht-tot
-            3:
-                slug: schnelligkeit
-            4:
-                slug: schmerzunempfindlichkeit
 image:
     detail: Stosstruppen.png
 taxonomy:
