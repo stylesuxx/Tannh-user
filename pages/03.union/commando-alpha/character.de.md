@@ -1,28 +1,5 @@
 ---
 title: 'Commando Alpha'
-packs:
-    1:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: keep-moving
-            2:
-                slug: flash-kanone-mk1
-            3:
-                slug: mkii-a1
-            4:
-                slug: m15
-    2:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: keep-moving
-            2:
-                slug: reising-m50
-            3:
-                slug: mkii-a1
-            4:
-                slug: go-go-go
 image:
     detail: Alpha.png
 taxonomy:
