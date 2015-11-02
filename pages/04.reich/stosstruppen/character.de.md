@@ -2,6 +2,7 @@
 title: Stosstruppen
 image:
     detail: Stosstruppen.png
+    list: Stosstruppen_List.png
 taxonomy:
     affiliation:
         - obscura-korps

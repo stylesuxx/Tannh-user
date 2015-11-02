@@ -2,6 +2,7 @@
 title: 'Commando Alpha'
 image:
     detail: Alpha.png
+    list: Alpha_List.png
 taxonomy:
     affiliation:
         - 42nd-marine-special-forces

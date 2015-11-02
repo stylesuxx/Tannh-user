@@ -2,6 +2,7 @@
 title: 'John MacNeal'
 image:
     detail: MacNeal.png
+    list: MacNeal_List.png
 taxonomy:
     affiliation:
         - airborne-destruction-squad

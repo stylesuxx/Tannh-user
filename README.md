@@ -1,5 +1,7 @@
-# Tannhäuser Cheat Sheet
-This is a Tannhäuser Cheat Sheet providing quick information about the equipment, troops and packs.
+# Tannhäuser Quick Reference
+This is a Tannhäuser Quick Reference providing information about the equipment, troops and their different packs.
+
+A live version can be found on[tannhauser.bubblesort.me](http://tannhauser.bubblesort.me).
 
 # Development
 With the development environment you can easily edit or add Items and Characters.

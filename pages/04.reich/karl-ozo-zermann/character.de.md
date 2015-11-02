@@ -2,6 +2,7 @@
 title: 'Karl "Ozo" Zermann'
 image:
     detail: KarlZermann.png
+    list: KarlZermann_List.png
 taxonomy:
     affiliation:
         - obscura-korps

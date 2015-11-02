@@ -2,6 +2,7 @@
 title: Schocktruppen
 image:
     detail: Shocktruppen.png
+    list: Shocktruppen_List.png
 taxonomy:
     affiliation:
         - obscura-korps

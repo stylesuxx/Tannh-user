@@ -2,6 +2,7 @@
 title: 'Tala Aponi'
 image:
     detail: Aponi.png
+    list: Aponi_List.png
 taxonomy:
     affiliation:
         - airborne-destruction-squad
