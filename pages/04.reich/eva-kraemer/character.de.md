@@ -2,6 +2,40 @@
 title: 'Eva Krämer'
 image:
     detail: Eva.png
+packs:
+    1:
+        name: 'Befehls Pack'
+        equip:
+            1:
+                slug: strafe
+            2:
+                slug: mauser-c96
+            3:
+                slug: eisernes-kreuz-zweiter-klasse
+            4:
+                slug: infiltration
+    2:
+        name: 'Kampf Pack'
+        equip:
+            1:
+                slug: strafe
+            2:
+                slug: mauser-c96
+            3:
+                slug: eisernes-kreuz-erster-klasse
+            4:
+                slug: kritischer-treffer
+    3:
+        name: 'Ausdauer Pack'
+        equip:
+            1:
+                slug: strafe
+            2:
+                slug: luger-p-08
+            3:
+                slug: erste-hilfe-koffer
+            4:
+                slug: eisernes-kreuz-zweiter-klasse
 taxonomy:
     affiliation:
         - blutsturm-division

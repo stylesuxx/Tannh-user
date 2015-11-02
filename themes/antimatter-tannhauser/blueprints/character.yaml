@@ -29,19 +29,21 @@ form:
               help: image filename that exists in the page folder.
               placeholder: For example: myimage.jpg
 
-            header.pack.combat:
-              type: list
-              label: Combat pack
+            packs:
+              type: section
+              title: Packs
+              underline: true
 
-            header.pack.stamina:
+            header.packs:
               type: list
-              label: Stamina pack
-
-            header.pack.command:
-              type: list
-              label: Command pack
-
-            header.pack.bonus:
-              type: list
-              label: Bonus pack
-
+              fields:
+                .name:
+                  type: string
+                  label: Pack Name
+                .equip:
+                  type: list
+                  label: Items
+                  fields:
+                    .slug:
+                      type: text
+                      label: Slug

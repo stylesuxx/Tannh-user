@@ -1,0 +1,23 @@
+.pack-wrapper {
+  padding-right: 4px; }
+  .pack-wrapper .item {
+    float: left;
+    text-align: center;
+    padding-left: 4px; }
+    .pack-wrapper .item p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: 25px;
+      font-weight: bold;
+      line-height: 20px; }
+  .pack-wrapper hr {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+.grav-lightslider .lSSlideOuter .lSPager.lSpg > li a {
+  z-index: 1; }
+
+#body > script:first-child + .grav-lightslider {
+  margin-top: -3rem; }
+
+/*# sourceMappingURL=custom.css.map */

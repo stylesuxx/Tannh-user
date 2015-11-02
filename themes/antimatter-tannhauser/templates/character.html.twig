@@ -12,7 +12,11 @@
           {% include 'partials/affiliations.html.twig' %}
           {{ page.media[page.header.image.detail].html() }}
         </div>
-        <div class="size-3-4 pure-u-2-3">{{ page.content }}</div>
+        <div class="size-3-4 pure-u-2-3">
+          {{ page.content }}
+          <h2>Packs</h2>
+          {% include 'partials/packs.html.twig' %}
+        </div>
       </div>
     </div>
   {% endblock %}
