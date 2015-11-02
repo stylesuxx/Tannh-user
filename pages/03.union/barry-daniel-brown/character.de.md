@@ -1,28 +1,6 @@
 ---
 title: 'Barry Daniel Brown'
 packs:
-    1:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: flash-maschinengewehr-a6a
-            2:
-                slug: messer
-            3:
-                slug: ba-27
-            4:
-                slug: mkii-a1
-    2:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: flash-maschinengewehr-a6a
-            2:
-                slug: unglaubliche-staerke
-            3:
-                slug: ba-27
-            4:
-                slug: erste-hilfe-koffer
     3:
         name: 'Befehls Pack'
         equip:
