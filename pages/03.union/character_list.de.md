@@ -1,5 +1,5 @@
 ---
 title: 'Union Truppen'
+content:
+    items: '@self.children'
 ---
-
-# Union Truppen
