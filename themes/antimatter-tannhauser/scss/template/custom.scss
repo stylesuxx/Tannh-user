@@ -1,5 +1,21 @@
 // Your custom SCSS should be written here...
 
+.character-pack-details {
+  p.link-wrapper {
+    margin-top: 0;
+    font-weight: bold;
+  }
+
+  .pack-details img {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+}
+
 .pack-wrapper {
   padding-right:4px;
 

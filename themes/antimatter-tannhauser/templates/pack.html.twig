@@ -1,22 +1,19 @@
 {% embed 'partials/base.html.twig' %}
-
   {% set character = page.parent.parent %}
-
   {% block content %}
     {% if config.plugins.breadcrumbs.enabled %}
       {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
 
     <div class="character-pack-details">
-      <h1>{{ character.title }}</h1>
+      <h1><a href="{{ character.url }}">{{ character.title }}</a> - {{ page.title }}</h1>
       <div class="wrapper grid pure-g">
         <div class="pure-u-1-4" style="text-align: center">
-          {% include 'partials/affiliations.html.twig' %}
+          {% include 'partials/affiliations.html.twig' with {'page': character} %}
           {{ character.media[character.header.image.detail].html() }}
         </div>
         <div class="size-3-4 pure-u-2-3">
-          <h2>{{ page.title }}</h2>
-          {% include 'partials/packs_short.html.twig' %}
+          {% include 'partials/pack_detail.html.twig' %}
         </div>
       </div>
     </div>
