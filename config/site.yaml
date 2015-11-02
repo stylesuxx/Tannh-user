@@ -3,8 +3,7 @@ author:
   name: Chris
   email: stylesuxx@gmail.com
 taxonomies:
-  - category
-  - tag
+  - affiliation
 metadata:
   description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
 summary:

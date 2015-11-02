@@ -1,8 +1,7 @@
 ---
-title: 'Reich Troops'
-
+title: 'Reich Truppen'
 content:
     items: '@self.children'
 ---
 
-# Reich Troops
+# Reich Truppen

@@ -5,9 +5,18 @@
       {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
 
-    <div class="blog-content-item grid pure-g-r">
-      <div id="item" class="block pure-u-2-3">
-        {{ page.content }}
+    <div class="character">
+      <h1>{{ page.title }}</h1>
+      <div class="wrapper grid pure-g">
+        <div class="pure-u-1-4" style="text-align: center">
+          {% include 'partials/affiliations.html.twig' %}
+          {{ page.media[page.header.image.detail].html() }}
+        </div>
+        <div class="size-3-4 pure-u-2-3">
+          {{ page.content }}
+          <h2>Packs</h2>
+          {% include 'partials/packs.html.twig' %}
+        </div>
       </div>
     </div>
   {% endblock %}

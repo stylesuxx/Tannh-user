@@ -1,0 +1,5 @@
+<div class="affiliations">
+  {% for p in page.find('/affiliation').children if p.slug in page.taxonomy.affiliation %}
+    {{ p.media[p.header.token_image].resize(50, 50).html(p.title) }}
+  {% endfor %}
+</div>

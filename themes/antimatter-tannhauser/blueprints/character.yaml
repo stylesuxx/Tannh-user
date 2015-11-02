@@ -20,33 +20,30 @@ form:
             header.image.list:
               type: text
               label: List Image
-              help: image filename that exists in the page folder. If not provided, will use the first image found.
+              help: image filename that exists in the page folder.
               placeholder: For example: myimage.jpg
 
             header.image.detail:
               type: text
               label: Detail Image
-              help: image filename that exists in the page folder. If not provided, will use the first image found.
+              help: image filename that exists in the page folder.
               placeholder: For example: myimage.jpg
 
-            affiliation:
+            packs:
               type: section
-              title: Affiliation
+              title: Packs
               underline: true
 
-            header.affiliations.reich:
-              type: checkboxes
-              label: Affiliation Reich
-              classes: fancy
-              options:
-                'blutsturm': 'Blutsturm Division'
-                'paranormal': 'Paranormale Division'
-                'obscure': 'Obscura Korps'
-
-            header.affiliations.union:
-              type: checkboxes
-              label: Affiliation Union
-              classes: fancy
-              options:
-                'airborne': 'Airborne Destruction Squad'
-                'marine': '42nd Marine Special Forces'
+            header.packs:
+              type: list
+              fields:
+                .name:
+                  type: string
+                  label: Pack Name
+                .equip:
+                  type: list
+                  label: Items
+                  fields:
+                    .slug:
+                      type: text
+                      label: Slug
