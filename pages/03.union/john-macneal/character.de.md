@@ -1,39 +1,5 @@
 ---
 title: 'John MacNeal'
-packs:
-    1:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: nachtaugen
-            2:
-                slug: flash-kanone-mk1
-            3:
-                slug: infanterie-kampfspange
-            4:
-                slug: ehrenmedaille
-    2:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: nachtaugen
-            2:
-                slug: flash-kanone-mk1
-            3:
-                slug: infanterie-expertenspange
-            4:
-                slug: ehrenmedaille
-    3:
-        name: 'Befehls Pack'
-        equip:
-            1:
-                slug: nachtaugen
-            2:
-                slug: colt-45-1911-a1
-            3:
-                slug: captain
-            4:
-                slug: silberner-stern
 image:
     detail: MacNeal.png
 taxonomy:
