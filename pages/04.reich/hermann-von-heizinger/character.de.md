@@ -2,6 +2,7 @@
 title: 'Hermann von Heizinger'
 image:
     detail: VonHeizinger.png
+    list: VonHeizinger_List.png
 taxonomy:
     affiliation:
         - obscura-korps

@@ -2,6 +2,7 @@
 title: 'Eva Krämer'
 image:
     detail: Eva.png
+    list: Eva_List.png
 taxonomy:
     affiliation:
         - blutsturm-division
