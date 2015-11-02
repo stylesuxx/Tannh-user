@@ -1,28 +1,5 @@
 ---
 title: 'Commando Delta'
-packs:
-    1:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: bg-42
-            2:
-                slug: smith-and-wesson-1917
-            3:
-                slug: keep-moving
-            4:
-                slug: m15
-    2:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: bg-42
-            2:
-                slug: smith-and-wesson-1917
-            3:
-                slug: m15
-            4:
-                slug: go-go-go
 image:
     detail: Delta.png
 taxonomy:
