@@ -2,6 +2,7 @@
 title: 'Commando Delta'
 image:
     detail: Delta.png
+    list: Delta_List.png
 taxonomy:
     affiliation:
         - 42nd-marine-special-forces

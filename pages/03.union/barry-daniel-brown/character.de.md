@@ -2,6 +2,7 @@
 title: 'Barry Daniel Brown'
 image:
     detail: Brown.png
+    list: Brown_List.png
 taxonomy:
     affiliation:
         - 42nd-marine-special-forces
