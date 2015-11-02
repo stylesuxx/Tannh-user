@@ -1,0 +1,26 @@
+title: Pack
+@extends:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+
+      fields:
+        pack:
+          type: tab
+          title: Pack
+          fields:
+            items:
+              type: section
+              title: Items
+              underline: true
+
+            header.items:
+              type: list
+              label: Items
+              fields:
+                .slug:
+                  type: string
+                  label: Item

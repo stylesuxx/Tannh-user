@@ -1,40 +1,5 @@
 ---
 title: 'Hermann von Heizinger'
-packs:
-    1:
-        name: 'Befehls Pack'
-        equip:
-            1:
-                slug: patmos-amulett
-            2:
-                slug: walther-p38
-            3:
-                slug: sha-na-ra
-            4:
-                slug: hermetica-umbra
-    2:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: patmos-amulett
-            2:
-                slug: walther-p38
-            3:
-                slug: auge-des-tarchies
-            4:
-                slug: hermetica-astra
-    3:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: patmos-amulett
-            2:
-                slug: walther-p38
-            3:
-                slug: generalleutnant
-            4:
-                slug: hermetica-occulta
-
 image:
     detail: VonHeizinger.png
 taxonomy:

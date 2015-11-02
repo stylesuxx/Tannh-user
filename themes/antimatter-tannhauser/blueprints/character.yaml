@@ -28,22 +28,3 @@ form:
               label: Detail Image
               help: image filename that exists in the page folder.
               placeholder: For example: myimage.jpg
-
-            packs:
-              type: section
-              title: Packs
-              underline: true
-
-            header.packs:
-              type: list
-              fields:
-                .name:
-                  type: string
-                  label: Pack Name
-                .equip:
-                  type: list
-                  label: Items
-                  fields:
-                    .slug:
-                      type: text
-                      label: Slug

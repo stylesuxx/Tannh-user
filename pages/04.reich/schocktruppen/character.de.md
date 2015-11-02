@@ -2,29 +2,6 @@
 title: Schocktruppen
 image:
     detail: Shocktruppen.png
-packs:
-    1:
-        name: 'Kampf Pack'
-        equip:
-            1:
-                slug: mad-minute
-            2:
-                slug: mp40
-            3:
-                slug: stielhandgranate
-            4:
-                slug: keep-firing
-    2:
-        name: 'Ausdauer Pack'
-        equip:
-            1:
-                slug: mad-minute
-            2:
-                slug: mp40
-            3:
-                slug: munition
-            4:
-                slug: erste-hilfe-koffer
 taxonomy:
     affiliation:
         - obscura-korps
