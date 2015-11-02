@@ -8,6 +8,13 @@
   </td>
 
   <td>
+    {% set packs = page.find(page.url ~ '/packs').children %}
+    {% for pack in packs %}
+      <a href="{{ pack.url }}">{{ pack.title }}</a>{% if loop.index < packs|length %} | {% endif %}
+    {% endfor %}
+  </td>
+
+  <td>
     {% include 'partials/affiliations.html.twig' with {'page':child} %}
   </td>
 </tr>
