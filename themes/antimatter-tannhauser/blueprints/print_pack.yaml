@@ -1,0 +1,26 @@
+title: Print Pack
+@extends:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+
+      fields:
+        pack:
+          type: tab
+          title: Pack
+          fields:
+            items:
+              type: section
+              title: Print Settings
+              underline: true
+
+            header.margin:
+              type: text
+              label: Margin
+
+            header.class:
+              type: text
+              label: Class
