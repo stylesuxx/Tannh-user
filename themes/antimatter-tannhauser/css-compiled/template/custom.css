@@ -43,7 +43,7 @@ body.print .pack-print {
             float: left; }
           body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper {
             font-size: 3.5mm;
-            line-height: 3.5mm;
+            line-height: 4mm;
             margin-left: 22mm; }
             body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper .type {
               float: left;

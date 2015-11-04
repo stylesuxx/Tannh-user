@@ -1,3 +1,3 @@
 ---
-margin: 12
+margin: 5
 ---
