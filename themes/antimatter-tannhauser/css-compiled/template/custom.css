@@ -45,6 +45,9 @@ body.print .pack-print {
             font-size: 3.5mm;
             line-height: 3.5mm;
             margin-left: 22mm; }
+            body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper .type {
+              float: left;
+              font-weight: bold; }
             body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper .title {
               font-weight: bold;
               font-size: 4mm; }
