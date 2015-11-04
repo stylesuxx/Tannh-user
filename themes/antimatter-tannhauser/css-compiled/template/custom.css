@@ -58,7 +58,7 @@ body.print .pack-print {
       body.print .pack-print .wrapper .inner .right-wrapper {
         border-top-right-radius: 2.4mm;
         border-bottom-right-radius: 2.4mm;
-        background-color: rgba(255, 0, 0, 0.7);
+        background-color: rgba(128, 128, 128, 0.7);
         position: absolute;
         width: 6mm;
         line-height: 5mm;
@@ -67,6 +67,12 @@ body.print .pack-print {
         top: 0;
         right: 0;
         font-weight: bold; }
+        body.print .pack-print .wrapper .inner .right-wrapper.stamina {
+          background-color: rgba(0, 255, 0, 0.7); }
+        body.print .pack-print .wrapper .inner .right-wrapper.combat {
+          background-color: rgba(255, 0, 0, 0.7); }
+        body.print .pack-print .wrapper .inner .right-wrapper.command {
+          background-color: rgba(0, 0, 255, 0.7); }
         body.print .pack-print .wrapper .inner .right-wrapper .character-name {
           position: absolute;
           margin-top: -6mm;

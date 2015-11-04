@@ -87,7 +87,7 @@ body.print {
           $width: 6mm;
           border-top-right-radius: 2.4mm;
           border-bottom-right-radius: 2.4mm;
-          background-color: rgba(255, 0, 0, 0.7);
+          background-color: rgba(128, 128, 128, 0.7);
 
           position: absolute;
           width: $width;
@@ -97,6 +97,18 @@ body.print {
           top: 0;
           right: 0;
           font-weight: bold;
+
+          &.stamina {
+            background-color: rgba(0, 255, 0, 0.7);
+          }
+
+          &.combat {
+            background-color: rgba(255, 0, 0, 0.7);
+          }
+
+          &.command {
+            background-color: rgba(0, 0, 255, 0.7);
+          }
 
           .character-name {
             position: absolute;
