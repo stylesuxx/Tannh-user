@@ -1,0 +1,54 @@
+{% extends 'partials/print.html.twig' %}
+
+{% block content %}
+  {% set pack = page.parent %}
+  {% set packs = pack.parent %}
+  {% set character = packs.parent %}
+
+  <div class="pack-print front"">
+    <div class="wrapper">
+      <div class="background"  style="background-image: url({{ character.media[character.header.image.detail].url() }})">
+        <div class="overlay"></div>
+      </div>
+
+      <div class="inner">
+        <div class="left-wrapper">
+          {% for i in pack.header.items %}
+            {% set item = page.find('/equipment/' ~ i.slug) %}
+            <div class="item" style="margin-bottom: {{ page.header.margin }}mm;">
+              <div class="token">
+                {{ item.media[item.header.token_image].resize(100, 100).html() }}
+              </div>
+              <div class="content-wrapper">
+                <div class="title">{{ item.title }}</div>
+                <div class="text">
+                <div class="type">
+                  {% include 'partials/equipment_type.html.twig' with {'page': item} %}
+                  {% if item.content %}
+                   &bull;&nbsp;
+                  {% endif %}
+                </div>
+                {% if item.header.cardtext %}
+                  {{ item.header.cardtext|markdown }}
+                {% else %}
+                  {{ item.content }}
+                {% endif %}
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="right-wrapper {{ pack.header.class }}">
+          <div class="character-name">
+            {{ character.title }}
+          </div>
+          <div class="pack-name">
+            {{ pack.title }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

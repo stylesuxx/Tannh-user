@@ -1,5 +1,6 @@
 ---
 title: 'Ausdauer Pack'
+class: stamina
 items:
     1:
         slug: tnt-440gr

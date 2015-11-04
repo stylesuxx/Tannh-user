@@ -1,5 +1,6 @@
 ---
 title: Ausdauer Pack
+class: stamina
 items:
     1:
         slug: flash-maschinengewehr-a6a

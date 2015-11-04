@@ -1,5 +1,6 @@
 ---
 title: 'Befehls Pack'
+class: command
 items:
     1:
         slug: strafe
