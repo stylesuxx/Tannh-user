@@ -23,7 +23,10 @@
                 <div class="title">{{ item.title }}</div>
                 <div class="text">
                 <div class="type">
-                  {% include 'partials/equipment_type.html.twig' with {'page': item} %} &bull;&nbsp;
+                  {% include 'partials/equipment_type.html.twig' with {'page': item} %}
+                  {% if item.content %}
+                   &bull;&nbsp;
+                  {% endif %}
                 </div>
                 {{ item.content }}
                 </div>
