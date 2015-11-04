@@ -743,6 +743,87 @@ ul.pagination {
 .simplesearch hr {
   border-bottom: 1px solid #eee; }
 
+body.print .pack-print {
+  width: 105mm;
+  /* A7: 75 x 105*/
+  height: 148mm; }
+  body.print .pack-print .wrapper {
+    position: relative;
+    border-radius: 4mm;
+    border: 1.5mm solid black;
+    width: 100%;
+    height: 100%;
+    color: black; }
+    body.print .pack-print .wrapper .background {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-origin: content-box; }
+      body.print .pack-print .wrapper .background .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.7); }
+    body.print .pack-print .wrapper .inner {
+      width: 100%;
+      height: 100%; }
+      body.print .pack-print .wrapper .inner .left-wrapper {
+        position: absolute;
+        width: 100%;
+        padding: 2mm;
+        padding-right: 8mm;
+        top: 0; }
+        body.print .pack-print .wrapper .inner .left-wrapper .item {
+          width: 100%;
+          margin-bottom: 3.5mm; }
+          body.print .pack-print .wrapper .inner .left-wrapper .item .clearfix {
+            clear: both; }
+          body.print .pack-print .wrapper .inner .left-wrapper .item .token {
+            width: 20mm;
+            height: 20mm;
+            float: left; }
+          body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper {
+            font-size: 3.5mm;
+            line-height: 3.5mm;
+            /* float: left; */
+            margin-left: 22mm; }
+            body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper .title {
+              font-weight: bold;
+              font-size: 4mm; }
+            body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper .text p {
+              margin: 0px;
+              margin-top: 1mm;
+              text-align: justify; }
+      body.print .pack-print .wrapper .inner .right-wrapper {
+        background-color: rgba(255, 0, 0, 0.7);
+        position: absolute;
+        width: 6mm;
+        line-height: 5mm;
+        font-size: 5mm;
+        height: 100%;
+        top: 0;
+        right: 0;
+        font-weight: bold; }
+        body.print .pack-print .wrapper .inner .right-wrapper .character-name {
+          position: absolute;
+          margin-top: -6mm;
+          height: 6mm;
+          transform-origin: left bottom;
+          transform: rotate(-270deg);
+          white-space: nowrap;
+          padding-left: 2mm; }
+        body.print .pack-print .wrapper .inner .right-wrapper .pack-name {
+          position: absolute;
+          right: 0;
+          bottom: -6mm;
+          height: 6mm;
+          transform-origin: right top;
+          transform: rotate(-270deg);
+          white-space: nowrap;
+          padding-right: 2mm; }
+
 .character-pack-details p.link-wrapper {
   margin-top: 0;
   font-weight: bold; }
