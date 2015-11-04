@@ -2,7 +2,8 @@
   {% for item in page.header.items %}
     {% set details = page.find('/equipment/' ~ item.slug) %}
     <div class="pure-u-1-1">
-      <p class="link-wrapper"><a href="{{ details.url }}">{{ details.title }}</a> - {% include 'partials/equipment_type.html.twig' with {'page': details} %}</p>
+      <p class="link-wrapper"><a href="{{ details.url }}">{{ details.title }}</a> &bull;
+      {% include 'partials/equipment_type.html.twig' with {'page': details} %}</p>
       {{ details.media[details.header.token_image].resize(100, 100).html() }}
       {{ details.content }}
       <div class="clearfix"></div>
