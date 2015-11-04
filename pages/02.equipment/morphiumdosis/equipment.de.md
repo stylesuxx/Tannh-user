@@ -1,8 +1,9 @@
 ---
 title: Morphiumdosis
 token_image: MorphineShot.png
-quote: 'Die kleine Metallröhre mit steriler Nadel gehört zur Grundaus- rüstung aller Unions- Luftlandetruppen. Das sofort wirksame Morphium unterdrückt Schmerzen bis zur ärztlichen Versorgung.'
+quote: 'Die kleine Metallröhre mit steriler Nadel gehört zur Grundausrüstung aller Unions- Luftlandetruppen. Das sofort wirksame Morphium unterdrückt Schmerzen bis zur ärztlichen Versorgung.'
 droppable: '1'
+cardtext: 'Aktiviert **hebt sie alle Verletzungen auf, die du beim nächsten Angriff erleidest**. Zum aktivieren, legst du den Marker verdeckt auf deine Charaktertafel, außerhalb des Ausrüstungsfachs. **Alternativ** kannst du diesen Marker verdeckt auf die Charaktertafel eines benachbarten Charakters legen.'
 other: item
 ---
 

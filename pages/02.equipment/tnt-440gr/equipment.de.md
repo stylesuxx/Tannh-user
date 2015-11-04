@@ -3,6 +3,7 @@ title: 'TNT 440GR'
 token_image: TNT.png
 quote: '„Ungenehmigte Explosivstoffe“ ist der Begriff, den das Union Engineering Corps in seinen Verhaftungsprotokollen dafür benutzt.'
 droppable: '1'
+cardtext: 'Als **Granate** fügt es **5 automatische Angriffserfolge** zu und hinterlässt einen Doppelsymbol-Schuttmarker. **Alternativ** kannst du TNT 440gr als Aktion auf deinen derzeitigen Ring legen und in einer späteren Aktivierungen eine Aktion ausgeben, um ihn zu detonieren. Jeder Charakter mit der Fertigkeit Ingenieurskunst kann den Marker aufnehmen, und ihn als Granate einsetzen. Nur Tala darf ihn durch Detonation zerstören.'
 other: grenade
 ---
 
