@@ -767,10 +767,12 @@ body.print .pack-print {
         height: 100%;
         background-color: rgba(255, 255, 255, 0.7); }
     body.print .pack-print .wrapper .inner {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%; }
       body.print .pack-print .wrapper .inner .left-wrapper {
-        position: absolute;
         width: 100%;
         padding: 2mm;
         padding-right: 8mm;
@@ -787,7 +789,6 @@ body.print .pack-print {
           body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper {
             font-size: 3.5mm;
             line-height: 3.5mm;
-            /* float: left; */
             margin-left: 22mm; }
             body.print .pack-print .wrapper .inner .left-wrapper .item .content-wrapper .title {
               font-weight: bold;
@@ -797,6 +798,8 @@ body.print .pack-print {
               margin-top: 1mm;
               text-align: justify; }
       body.print .pack-print .wrapper .inner .right-wrapper {
+        border-top-right-radius: 2.4mm;
+        border-bottom-right-radius: 2.4mm;
         background-color: rgba(255, 0, 0, 0.7);
         position: absolute;
         width: 6mm;
