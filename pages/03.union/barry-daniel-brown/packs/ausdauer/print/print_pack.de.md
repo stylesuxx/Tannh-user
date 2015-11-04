@@ -1,3 +1,4 @@
 ---
-margin: 7.5
+margin: '7.5'
+class: stamina
 ---
