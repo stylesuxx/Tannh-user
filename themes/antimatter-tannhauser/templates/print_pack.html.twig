@@ -28,7 +28,11 @@
                    &bull;&nbsp;
                   {% endif %}
                 </div>
-                {{ item.content }}
+                {% if item.header.cardtext %}
+                  {{ item.header.cardtext|markdown }}
+                {% else %}
+                  {{ item.content }}
+                {% endif %}
                 </div>
               </div>
               <div class="clearfix"></div>

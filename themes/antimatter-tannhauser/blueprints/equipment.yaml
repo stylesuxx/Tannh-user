@@ -82,3 +82,10 @@ form:
                 'rank': 'Rank'
                 'grenade': 'Grenade'
                 'smoke': 'Smoke Grenade'
+
+            cardtext:
+              type: section
+              title: Shortened Cardtext
+
+            header.cardtext:
+              type: markdown
