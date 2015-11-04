@@ -1,5 +1,6 @@
 ---
 title: Kampf Pack
+class: combat
 items:
     1:
         slug: flash-maschinengewehr-a6a
