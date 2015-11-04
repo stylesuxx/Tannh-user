@@ -20,7 +20,3 @@ form:
             header.margin:
               type: text
               label: Margin
-
-            header.class:
-              type: text
-              label: Class

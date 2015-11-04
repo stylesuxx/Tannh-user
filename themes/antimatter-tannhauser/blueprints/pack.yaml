@@ -12,6 +12,16 @@ form:
           type: tab
           title: Pack
           fields:
+
+            general:
+              type: section
+              title: General
+              underline: true
+
+            header.class:
+              type: text
+              label: Class
+
             items:
               type: section
               title: Items
