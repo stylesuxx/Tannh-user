@@ -6,4 +6,4 @@ droppable: '0'
 other: ability
 ---
 
-**Ignoriere einen Punkt Bewegungs-Abzug** bei jedem Bewegungs-Modifikationsring, den du betrittst.
+**Ignoriere einen Punkt Bewegungs Abzug** bei jedem Bewegungs Modifikationsring, den du betrittst.
