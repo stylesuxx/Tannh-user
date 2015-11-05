@@ -2,8 +2,18 @@
 
 body.print {
   .pack-print {
-    width: 105mm; /* A7: 75 x 105*/
+    width: 105mm;
     height: 148mm;
+
+    float: left;
+
+    &.back {
+      .wrapper {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    }
 
     .wrapper {
       position: relative;
