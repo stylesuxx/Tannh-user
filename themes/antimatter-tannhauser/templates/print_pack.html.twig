@@ -4,8 +4,9 @@
   {% set pack = page.parent %}
   {% set packs = pack.parent %}
   {% set character = packs.parent %}
+  {% set group = character.parent %}
 
-  <div class="pack-print front"">
+  <div class="pack-print front">
     <div class="wrapper">
       <div class="background"  style="background-image: url({{ character.media[character.header.image.detail].url() }})">
         <div class="overlay"></div>
@@ -50,5 +51,8 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="pack-print back">
+    <div class="wrapper" style="background-image: url({{ group.media[group.header.cardback].url() }})"></div>
   </div>
 {% endblock %}
